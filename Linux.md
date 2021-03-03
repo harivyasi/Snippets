@@ -46,3 +46,9 @@ sed -i "s/$(grep ZSH_THEME .zshrc | grep -Z "^[^#]")/ZSH_THEME=\"powerlevel10k\/
 ```
 chsh -s /usr/bin/zsh
 ```
+
+### Changing starting directory for WSL in Windows Terminal
+Add the following line to the `Ubuntu` entry in `Profile:list`:
+```
+"startingDirectory": "//wsl$/Ubuntu/home/<username>"
+```
