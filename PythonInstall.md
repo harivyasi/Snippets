@@ -35,7 +35,7 @@ conda create -n website pip
 ```
 ```
 conda activate website # activate the environment
-pip install jupyter-book
+pip install jupyter-book sphinx-sitemap
 ```
 
 ## Using Minconda installation on windows
