@@ -2,7 +2,7 @@
 
 ## Optimization hacks
 
-### Using strings instead of lists when validating a character
+### Using string instead of list when validating a character
 If you are validating if the input _character_ exists in a _list of characters_, use a string instead of the _list of characters_. Using `ipython` `%timeit`:
 ```python
 In [1]: def a():

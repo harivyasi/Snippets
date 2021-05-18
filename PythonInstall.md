@@ -40,15 +40,6 @@ pip install jupyter-book sphinx-sitemap
 
 ## Using Minconda installation on windows
 ### Installation
-Download ` https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe `.
-### Using `miniconda` prompt in Windows Terminal
-In the terminal settings, in `profiles:list` add this entry:
-```
-{
-    "guid": "{caaa5cb5-682c-4e4c-8001-f1ebe86ffc18}",
-    "hidden": false,
-    "name": "Miniconda",
-    "commandline": "cmd.exe \"/K\" D:\\Softwares\\miniconda3\\Scripts\\activate.bat D:\\Softwares\\miniconda3",
-}
-```
-Remember to adjust the path for miniconda installation. Maybe, get guid from [here](https://www.guidgenerator.com).
+Download [miniconda](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe).
+
+See also [instructions to add entries to Windows Terminal](WinTerm.md).
