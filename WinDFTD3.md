@@ -1,14 +1,15 @@
 # Installing DFT-D3 package on Windows
 
 These instructions are for installing (compiling) DFT-D3 on Windows 10. The
-plan is to the GNU Fortran Compiler to do the same.
+plan is to use the GNU Fortran Compiler to do the same.
 
 ## Steps
-1. Download and extract the DFT-D3 package's tarball from its [webpage](https://www.chemie.uni-bonn.de/pctc/mulliken-center/software/dft-d3/). Put the extracted tarball
-in a sensible place where you can find it again (i.e. move it out of the
- `Downloads` folder).
+1. Download and extract the DFT-D3 package's tarball from its
+[webpage](https://www.chemie.uni-bonn.de/pctc/mulliken-center/software/dft-d3/). 
+Put the extracted tarball in a sensible place where you can find it again
+(i.e. move it out of the `Downloads` folder).
 
-2. [GFortran compiler](https://gcc.gnu.org/wiki/GFortran) is [available for
+2. [GNU Fortran compiler](https://gcc.gnu.org/wiki/GFortran) is [available for
 Windows](https://gcc.gnu.org/wiki/GFortranBinaries) via the
 [MinGW-w64](http://mingw-w64.sourceforge.net/) project. One can [download the
 binary](http://mingw-w64.org/doku.php/download) for Windows from
@@ -30,8 +31,8 @@ need are `cd <foldername>` (enter a folder), `dir` (list all files & folders)
 and `cd ..` (go back to the parent folder).
 
 6. Once inside the folder created after extracting the tarball, most likely
-called `dftd3`, using `dir` will list a few files that end in `.f`, a manual
-and a `Makefile`.
+called `dftd3`, using the `dir` command will list a few files that end in `.f`,
+a manual and a `Makefile`.
 
 7. In this folder execute the following
 ```
