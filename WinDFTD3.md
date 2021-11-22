@@ -1,9 +1,9 @@
-# Installing DFT-D3 package on Windows
+# Installing DFT-D3 package
 
-These instructions are for installing (compiling) DFT-D3 on Windows 10. The
-plan is to use the GNU Fortran Compiler to do the same.
+These instructions are for installing (compiling) DFT-D3 on Windows 10
+and macOS. The plan is to use the GNU Fortran Compiler to do the same.
 
-## Steps
+## Steps on Windows
 1. Download and extract the DFT-D3 package's tarball from its
 [webpage](https://www.chemie.uni-bonn.de/pctc/mulliken-center/software/dft-d3/). 
 Put the extracted tarball in a sensible place where you can find it again
@@ -44,3 +44,20 @@ gfortran -static dftd3.o copyc6.o -o dftd3
 8. You will find that new files have appeared in the folder. Now you can used
 the file `dftd3` (it's an executable) as you would on a Linux system. More
 details on how to use the command are in the manual (man.pdf).
+
+## Steps on macOS (where different from steps on Windows)
+1. Same as above.
+2. Install [homebrew](brew.sh). Then install [GNU Fortran compiler](https://gcc.gnu.org/wiki/GFortran) 
+using the command `brew install gcc`.
+3. Skip
+4. Skip.
+5. Use `ls` instead of `dir`.
+6. Same as above.
+7. In this folder execute the following
+```
+gfortran -O -c dftd3.f -o dftd3.o
+gfortran -O -c copyc6.f -o copyc6.o
+gfortran dftd3.o copyc6.o -o dftd3 # macOS gcc fails to compile statically
+```
+8. Same as above.
+
