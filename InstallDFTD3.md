@@ -11,9 +11,9 @@ Put the extracted tarball in a sensible place where you can find it again
 
 2. [GNU Fortran compiler](https://gcc.gnu.org/wiki/GFortran) is [available for
 Windows](https://gcc.gnu.org/wiki/GFortranBinaries) via the
-[MinGW-w64](http://mingw-w64.sourceforge.net/) project. One can [download the
-binary](http://mingw-w64.org/doku.php/download) for Windows from
-[here](http://mingw-w64.org/doku.php/download/mingw-builds).
+[MinGW-w64](http://mingw-w64.sourceforge.net/) project. One can download the
+binary for Windows from [here](https://www.mingw-w64.org/downloads/#mingw-builds),
+which points to this [download page](http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download).
 
 3. Install the compiler. Sensible options for any modern (x64) machine are:
 `x86_64`, `posix`, `seh`. I used the version `8.1.0` and build version `0`.

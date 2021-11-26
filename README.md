@@ -6,4 +6,4 @@ Snippets of code for me to use later.
 - [Python Tips and Tricks](PythonTips.md)
 - [Windows](Windows.md)
 - [Windows Terminal Settings](WinTerm.md)
-- [Installing DFT-D3 package](WinDFTD3.md) on Windows and macOS
+- [Installing DFT-D3 package](InstallDFTD3.md) on Windows and macOS
