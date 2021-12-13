@@ -73,3 +73,7 @@ Add the following line to the `Ubuntu` entry in `Profile:list`:
 ```
 "startingDirectory": "//wsl$/Ubuntu/home/<username>"
 ```
+If using the settings GUI, one has to use the Windows way of setting the path i.e. the path that goes in the text field would be:
+```
+\\wsl$\Ubuntu\home\<username>"
+```
